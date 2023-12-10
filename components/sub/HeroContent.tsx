@@ -29,6 +29,12 @@ const HeroContent = () => {
               <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>the best</span>
               project experience
             </motion.div>
+            <motion.p
+            variants={slideInFromLeft(0.8)}
+            className='text-lg text-gray-400 my-5 max-w-[600px]'
+            >
+              I&apos;m a full stack software engineer with experience in website Mobile, and software development. check out my projects and skills.
+            </motion.p>
         </div>
 
     </motion.div>
